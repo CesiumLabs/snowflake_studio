@@ -12,7 +12,7 @@ export default function RouteBuilder() {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/support" exact component={Support} />
-                <Route path="/" component={ErrorPage} />
+                <Route component={ErrorPage} />
             </Switch>
         </>
     )
