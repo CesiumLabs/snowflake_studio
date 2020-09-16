@@ -11,7 +11,7 @@ export default function RouteBuilder() {
             <Navbar />
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/support" exact component={Support} />
+                <Route path="/chat" exact component={Support} />
                 <Route component={ErrorPage} />
             </Switch>
         </>
