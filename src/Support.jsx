@@ -14,7 +14,7 @@ export default function Support() {
 
     return (
         <>
-            <iframe id="wb-embed" title="discord" src="https://e.widgetbot.io/channels/480939855476686849/755650364136620032" style={WBStyle}></iframe>
+            <iframe id="wb-embed" title="discord" src="https://e.widgetbot.io/channels/480939855476686849/755715723774656623" style={WBStyle}></iframe>
         </>
     )
 }
