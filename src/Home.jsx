@@ -78,24 +78,28 @@ export default function Home() {
                             description="A powerful, simple & easy to use image manipulation module." 
                             button="View on NPMJS"
                             url="https://npmjs.com/package/canvacord"
+                            image="https://vignette.wikia.nocookie.net/logopedia/images/3/38/Paint_Win10X.png/revision/latest/scale-to-width-down/340?cb=20200223084414"
                         />
                         <Cards
                             title="Discord YTDL Core"
                             description="Simple YTDL wrapper with custom ffmpeg args support."
                             button="View on NPMJS"
                             url="https://npmjs.com/package/discord-ytdl-core"
+                            image="https://store-images.s-microsoft.com/image/apps.20998.14558665752799575.b101da53-a486-4f73-844e-d4416460e662.5ca28426-2d21-46e1-9b95-67b2ead61480"
                         />
                         <Cards
                             title="QuickMongo"
                             description="Quick mongodb wrapper for beginners."
                             button="View on NPMJS"
                             url="https://npmjs.com/package/quickmongo"
+                            image="https://draywilliams.com/wp-content/uploads/2020/05/imageedit_56_5278557772.png"
                         />
                         <Cards
                             title="Soundcloud Scraper"
                             description="Fetch data from soundcloud for free."
                             button="View on NPMJS"
                             url="https://npmjs.com/package/soundcloud-scraper"
+                            image="https://www.iconfinder.com/data/icons/free-social-media-set/24/soundcloud-512.png"
                         />
                     </CardDeck>
                 </Jumbotron>
