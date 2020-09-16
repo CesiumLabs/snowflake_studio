@@ -15,7 +15,7 @@ export default function RouteBuilder() {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/login" exact component={() => <RedirectURI url={AUTH_URI}/>} />
-                <Route path="/support" component={Support} />
+                <Route path="/support" exact component={Support} />
                 <Route path="/" component={ErrorPage} />
             </Switch>
         </>
