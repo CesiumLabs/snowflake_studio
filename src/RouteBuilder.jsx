@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Navbar from './NavBar';
 import ErrorPage from './ErrorPage';
-import RedirectURI from './RedirectURI';
 import Support from './Support';
 
 export default function RouteBuilder() {
