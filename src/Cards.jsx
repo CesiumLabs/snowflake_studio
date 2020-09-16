@@ -19,7 +19,7 @@ export default function Cards({ title, description, image, url, button }) {
     return (
         <Card bg="dark" style={{ width: '21rem' }} >
             <div className="cardImages">
-                <Image src={image || Logo} className="card-bg" draggable="false" />
+                <Image src={Logo} className="card-bg" draggable="false" />
                 <Image src={image || Logo} id="card-image" draggable="false" style={CardImgCss} />
             </div>
             <Card.Body>
