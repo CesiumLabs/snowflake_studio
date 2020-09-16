@@ -1,0 +1,20 @@
+{
+  "short_name": "Snowflake Studio ❄",
+  "name": "Snowflake Studio ❄",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4d5e94",
+  "background_color": "#2f3136"
+}

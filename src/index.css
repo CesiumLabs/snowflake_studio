@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    background-color: #242628 !important;
+    color: #FFFFFF;
+    font-family: 'Mukta', sans-serif;
+}
+
+.alpha-dark {
+    background-color: #303339 !important;
+}
+
+.mr-7 {
+    margin-right: 7rem;
+}
+
+.dropdown-menu {
+    background-color: #2e323a;
+}
+
+.dropdown-item {
+    color: #FFFFFF;
+}
+
+.nav-link, .nav-link a {
+  color: #ffffffb4 !important;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-link:hover, .nav-link a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 5px;
+    z-index: 100;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotate {
+  -webkit-animation:spin 5s linear infinite;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
+}
+
+.glowLogo {
+  transition: 6s;
+  box-shadow: 0px 0px 30px #5497fc8c;
+}
+
+.glowText {
+  text-shadow: 0px 0px 30px #0d6dfd8c;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.desc {
+  font-size: 22px;
+}
+
+.homebtn {
+  border: 5px solid #4d5e94;
+  width: auto;
+  border-color: #4d5e94 !important;
+  transition: 1s;
+}
+
+.homebtn:first-child {
+  margin-right: 2rem;
+  background-color: #4d5e94 !important;
+}
+
+.homebtn:hover,.homebtn:focus {
+  border: 5px solid #4d5e94;
+  background-color: #4d5e94 !important;
+  transition: 1s;
+}
+
+.copyright-box {
+  border-top: 2px solid #dad9d9;
+}
+
+.sln {
+  background-color: #7289da !important;
+  clip-path: polygon(0% 0%, 100% 3%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0% 0%, 100% 3%, 100% 100%, 0 100%);
+}
+
+.cardTitle {
+  font-size: 32px;
+}
+
+.cardFooterButton {
+  background-color: none !important;
+  border: 5px solid #4d5e94 !important;
+  border-color: #4d5e94 !important;
+  transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.cardFooterButton:hover, .cardFooterButton:focus {
+  background-color: #4d5e94 !important;
+  border: 5px solid #4d5e94 !important;
+  border-color: #4d5e94 !important;
+  transition: 0.3s;
+}
+
+.card {
+  transition: 0.5s;
+  box-shadow: 10px 10px 10px #3a3c3f8c;
+  border-radius: 7px;
+}
+
+.card:hover {
+  transform: translate(0, -5px);
+  transition: 0.5s;
+}
+
+.twemoji {
+  height: 32px;
+  width: 32px;
+}
+
+.video {
+  border-radius: 10px !important;
+  border: 10px solid #4d5e94 !important;
+  box-shadow: 10px 10px 10px #3a3c3f8c !important;
+}
+
+.errorTitle {
+  font-size: 250px;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px #2f3652;
+}
+
+.errorMessage {
+  font-size: 36px;
+}
+
+.card-bg {
+  width: 100%;
+  height: 11em;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+::-moz-selection {
+  color: #FFFFFF;
+  background: #90aaff;
+}
+
+::selection {
+  color: #FFFFFF;
+  background: #90aaff;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@-moz-keyframes spin { 
+  100% { 
+    -moz-transform: rotate(360deg); 
+  } 
+}
+
+@-webkit-keyframes spin { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+  } 
+}
+
+@keyframes spin { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg); 
+  } 
+}
