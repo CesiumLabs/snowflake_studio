@@ -11,8 +11,8 @@ export default function NavBar() {
 
     return (
         <Navbar bg="transparent" className="alpha-dark" variant="dark" expand="lg">
-            <Navbar.Brand href="#home" className="ml-5">
-                <Navbar.Brand href="#home">
+            <Navbar.Brand href="/" className="ml-5">
+                <Navbar.Brand href="/">
                     <img
                         src={Logo}
                         width="30"
