@@ -27,7 +27,7 @@ export default function NavBar() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto mr-7">
                     <Nav.Link><Link to="/">Home</Link></Nav.Link>
-                    <Nav.Link><Link to="/support">Support</Link></Nav.Link>
+                    <Nav.Link><Link to="/chat">Chat</Link></Nav.Link>
                     <Nav.Link href="https://github.com/Snowflake107" target="_blank">GitHub</Nav.Link>
                     <Nav.Link href="https://discord.gg/2SUybzb" target="_blank">Discord</Nav.Link>
                     <Nav.Link href="https://www.youtube.com/channel/UCvklmpoAZntoOpr7EyTierA" target="_blank">YouTube</Nav.Link>
